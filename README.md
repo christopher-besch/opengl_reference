@@ -1,4 +1,4 @@
-[001_opengl](001_opengl/info.txt)
+[001_opengl](001_opengl/info.md)
 []()
 []()
 []()
