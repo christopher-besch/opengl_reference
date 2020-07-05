@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (C:\Users\Stromel\Desktop\opengl_reference\002_setting_up\First Window\bin\intermediates\Win32\Debug\) contains files shared from another project (First Window.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Application.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  First Window.vcxproj -> C:\Users\Stromel\Desktop\opengl_reference\002_setting_up\First Window\bin\Win32\Debug\First_Window.exe
