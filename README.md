@@ -6,9 +6,9 @@
 
 [004_vertex_buffering](004_vertex_buffering/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[005_vertex_attributes](005_vertex_attributes/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[006_shaders](006_shaders/My_Solution/My_Project/src/Application.cpp)
 
 []()
 
