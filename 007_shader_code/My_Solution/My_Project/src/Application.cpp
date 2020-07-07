@@ -30,7 +30,8 @@ static unsigned int compile_shader(unsigned int type, const std::string& source)
 		// char message[length]; <- doesn't work <- length is unknown at compile time
 		//                     <- allocates on the stack
         char* message = (char*)alloca(length * sizeof(char));
-        glGetShaderInfoLog(id, length, &length, message);
+		//                             <- can return the length of the log (excluding NULL-termination character)
+        glGetShaderInfoLog(id, length, nullptr, message);
 
 		// print error
         std::cout << "Failed to compile " <<
@@ -45,14 +46,14 @@ static unsigned int compile_shader(unsigned int type, const std::string& source)
 }
 
 
-static unsigned int create_shaders(const std::string& vertex_shader, const std::string& fragment_shader)
+static unsigned int create_shader(const std::string& vertex_shader, const std::string& fragment_shader)
 {
     // same as GLuint
 	unsigned int program = glCreateProgram();
     unsigned int vs = compile_shader(GL_VERTEX_SHADER, vertex_shader);
     unsigned int fs = compile_shader(GL_FRAGMENT_SHADER, fragment_shader);
 
-	// "compiling" the shaders
+	// "compiling" the shader
     glAttachShader(program, vs);
     glAttachShader(program, fs);
     glLinkProgram(program);
@@ -159,7 +160,7 @@ int main(void)
         "   color = vec4(1.0, 0.0, 0.0, 1.0);\n"
         "}\n";
 
-    unsigned int shader = create_shaders(vertex_shader, fragment_shader);
+    unsigned int shader = create_shader(vertex_shader, fragment_shader);
     glUseProgram(shader);
 
     // games loop
@@ -200,5 +201,5 @@ int main(void)
  *  gets called for each pixel
  *  decides color for each pixel
  * 
- * there are others (like tessellation, geometry shaders, compute shaders)
+ * there are others (like tessellation, geometry shader, compute shader)
  */
