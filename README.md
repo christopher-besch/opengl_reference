@@ -20,13 +20,11 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [007_shader_code](007_shader_code/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[008_improved_shader_code](008_improved_shader_code/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[009_index_buffers](009_index_buffers/My_Solution/My_Project/src/Application.cpp)
 
-[]()
-
-[]()
+[010_errors](010_errors/My_Solution/My_Project/src/Application.cpp)
 
 []()
 

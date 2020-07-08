@@ -86,3 +86,17 @@ deletes a program object
 undoes glCreateProgram
 
 when the program is currently in use -> flagged for deletion -> gets deleted when not in use any more
+
+## glDrawElements
+render primitives from array data
+
+## glDebugMessageCallback
+specify a callback to receive debugging messages from the GL
+
+## glEnable
+enable server-side GL capabilities
+
+## glGetError
+return error information
+
+should be called repeatedly -> until returns GL_NO_ERROR
