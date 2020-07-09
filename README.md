@@ -26,9 +26,9 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [010_errors](010_errors/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[011_uniforms](011_uniforms/My_Solution/My_Project/src/Application.cpp)
 
-[]()
+[012_vertex_arrays](012_vertex_arrays/My_Solution/My_Project/src/Application.cpp)
 
 []()
 

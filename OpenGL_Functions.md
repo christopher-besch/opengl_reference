@@ -100,3 +100,23 @@ enable server-side GL capabilities
 return error information
 
 should be called repeatedly -> until returns GL_NO_ERROR
+
+## glGetUniformLocation
+returns the location of a uniform variable
+
+querying a specified uniform variable in a specified program
+
+has to be called for each element <- when querying an array
+
+has to be used after linking
+
+## glUniform4f
+specify the value of a uniform variable for the current program object
+
+operates on the currently used program
+
+## glGenVertexArrays
+generate vertex array object names
+
+## glBindVertexArray
+bind a vertex array object
