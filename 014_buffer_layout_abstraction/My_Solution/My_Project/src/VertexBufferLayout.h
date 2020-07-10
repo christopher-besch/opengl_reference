@@ -37,35 +37,41 @@ public:
 	VertexBufferLayout()
 		: m_stride(0) {}
 
-	// appears to be msvc only???
 	template<typename T>
 	void push(unsigned int count)
 	{
 		// when the type is unmatched
+		ASSERT(false);
+		
+		// this seems to create problems with gcc
 		static_assert(false);
 	}
 
-	template<>
-	void push<float>(unsigned int count)
-	{
+	/////////////////////////////
+	// appears to be msvc only //
+	/////////////////////////////
+	
+	// template<>
+	// void push<float>(unsigned int count)
+	// {
 		//                                     <- hard coded for now
-		m_elements.push_back({ GL_FLOAT, count, GL_FALSE });
-		m_stride += count * VertexBufferElement::get_size_of_type(GL_FLOAT);
-	}
+		// m_elements.push_back({ GL_FLOAT, count, GL_FALSE });
+		// m_stride += count * VertexBufferElement::get_size_of_type(GL_FLOAT);
+	// }
 
-	template<>
-	void push<unsigned int>(unsigned int count)
-	{
-		m_elements.push_back({ GL_UNSIGNED_INT, count, GL_FALSE });
-		m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_INT);
-	}
+	// template<>
+	// void push<unsigned int>(unsigned int count)
+	// {
+		// m_elements.push_back({ GL_UNSIGNED_INT, count, GL_FALSE });
+		// m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_INT);
+	// }
 
-	template<>
-	void push<unsigned char>(unsigned int count)
-	{
-		m_elements.push_back({ GL_UNSIGNED_BYTE, count, GL_TRUE });
-		m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_BYTE);
-	}
+	// template<>
+	// void push<unsigned char>(unsigned int count)
+	// {
+		// m_elements.push_back({ GL_UNSIGNED_BYTE, count, GL_TRUE });
+		// m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_BYTE);
+	// }
 
 	inline const std::vector<VertexBufferElement>& get_elements() const
 	{
@@ -77,3 +83,26 @@ public:
 		return m_stride;
 	}
 };
+
+
+template<>
+inline void VertexBufferLayout::push<float>(unsigned int count)
+{
+	//                                     <- hard coded for now
+	m_elements.push_back({ GL_FLOAT, count, GL_FALSE });
+	m_stride += count * VertexBufferElement::get_size_of_type(GL_FLOAT);
+}
+
+template<>
+inline void VertexBufferLayout::push<unsigned int>(unsigned int count)
+{
+	m_elements.push_back({ GL_UNSIGNED_INT, count, GL_FALSE });
+	m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_INT);
+}
+
+template<>
+inline void VertexBufferLayout::push<unsigned char>(unsigned int count)
+{
+	m_elements.push_back({ GL_UNSIGNED_BYTE, count, GL_TRUE });
+	m_stride += count * VertexBufferElement::get_size_of_type(GL_UNSIGNED_BYTE);
+}
