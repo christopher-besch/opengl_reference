@@ -1,3 +1,5 @@
+# OpenGL Reference
+
 There is one folder for each video from [the OpenGL series from The Cherno](https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2).
 
 Each folder contains a VS solution with the example code used and everything explained with comments.
