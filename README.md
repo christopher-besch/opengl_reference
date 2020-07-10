@@ -34,7 +34,7 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [014_buffer_layout_abstraction](014_buffer_layout_abstraction/My_Solution/My_Project/src)
 
-[]()
+[015_shader_abstraction](015_shader_abstraction/My_Solution/My_Project/src)
 
 []()
 
