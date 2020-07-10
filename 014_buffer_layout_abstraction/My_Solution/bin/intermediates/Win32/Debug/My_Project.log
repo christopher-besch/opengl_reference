@@ -1,0 +1,5 @@
+﻿  Application.cpp
+  VertexArray.cpp
+C:\Users\Stromel\Desktop\opengl_reference\014_buffer_layout_abstraction\My_Solution\My_Project\src\VertexArray.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  My_Project.vcxproj -> C:\Users\Stromel\Desktop\opengl_reference\014_buffer_layout_abstraction\My_Solution\bin\Win32\Debug\My_Project.exe
