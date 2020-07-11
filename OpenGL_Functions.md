@@ -120,3 +120,21 @@ generate vertex array object names
 
 ## glBindVertexArray
 bind a vertex array object
+
+## glGenTextures
+generate texture names
+
+## glBindTexture
+bind a named texture to a texturing target
+
+## glTexParameteri
+set texture parameters
+
+## glTexImage2D
+specify a two-dimensional texture image
+
+texturing allows elements of an image array to be read by shaders
+
+## glActiveTexture
+
+## glBlendFunc
