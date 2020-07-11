@@ -40,7 +40,7 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [016_basic_renderer](016_basic_renderer/My_Solution/My_Project/src)
 
-[]()
+[017_textures](017_textures/My_Solution/My_Project/src)
 
 []()
 
