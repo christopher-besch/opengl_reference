@@ -42,9 +42,9 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [017_textures](017_textures/My_Solution/My_Project/src)
 
-[]()
+[018_blending](018_blending/My_Solution/My_Project/src)
 
-[]()
+[019_math](019_math/My_Solution/My_Project/src)
 
 []()
 

@@ -136,5 +136,10 @@ specify a two-dimensional texture image
 texturing allows elements of an image array to be read by shaders
 
 ## glActiveTexture
+select active texture unit
 
 ## glBlendFunc
+specify pixel arithmetic (the factors for source and destination blending)
+
+## glBlendEquation
+specify the equation used for both the RGB blend equation and the Alpha blend equation
