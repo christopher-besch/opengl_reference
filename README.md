@@ -58,7 +58,7 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [024_test_framework](024_test_framework/My_Solution/My_Project/src)
 
-[]()
+[025_new_tests](025_new_tests/My_Solution/My_Project/src)
 
 []()
 
