@@ -1,0 +1,25 @@
+﻿  Application.cpp
+  IndexBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  TestClearColor.cpp
+  Texture.cpp
+  glm.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  VertexArray.cpp
+C:\Users\Stromel\Desktop\opengl_reference\024_test_framework\My_Solution\My_Project\src\VertexArray.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+  VertexBuffer.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  684 of 1348 functions (50.7%) were compiled, the rest were copied from previous compilation.
+    24 functions were new in current compilation
+    122 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Stromel\Desktop\opengl_reference\024_test_framework\My_Solution\bin\Win32\Release\vc120.pdb'; linking object as if no debug info
+  My_Project.vcxproj -> C:\Users\Stromel\Desktop\opengl_reference\024_test_framework\My_Solution\bin\Win32\Release\My_Project.exe
