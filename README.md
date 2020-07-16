@@ -62,6 +62,8 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [026_texture_test](026_texture_test/My_Solution/My_Project\src)
 
+[027_faster_uniform](027_faster_uniform/My_Solution/My_Project/src)
+
 []()
 
 []()
