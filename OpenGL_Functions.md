@@ -143,3 +143,12 @@ specify pixel arithmetic (the factors for source and destination blending)
 
 ## glBlendEquation
 specify the equation used for both the RGB blend equation and the Alpha blend equation
+
+## glMapBuffer
+map all of a buffer object's data store into the client's address space
+
+## glUnmapBuffer
+release the mapping of a buffer object's data store into the client's address space
+
+## glBufferSubData
+updates a subset of a buffer object's data store
