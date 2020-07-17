@@ -64,6 +64,8 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [027_faster_uniform](027_faster_uniform/My_Solution/My_Project/src)
 
+-------------using library from The Cherno-------------
+
 [029_batch_rendering_color](029_batch_rendering_color/OpenGL-Sandbox/src)
 
 [030_batch_rendering_textures](030_batch_rendering_textures/OpenGL-Sandbox/src)
