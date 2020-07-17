@@ -66,6 +66,6 @@ This repo is supposed to be used as a reference if you need something you know e
 
 [029_batch_rendering_color](029_batch_rendering_color/OpenGL-Sandbox/src)
 
-[]()
+[030_batch_rendering_textures](030_batch_rendering_textures/OpenGL-Sandbox/src)
 
 []()
